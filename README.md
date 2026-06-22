@@ -93,6 +93,9 @@ proyecto/
 
 ## Integrantes
 
+Perez, Matias
+Bosaz, Agustin
+
 ### Integrante 1
 
 Responsable de:
