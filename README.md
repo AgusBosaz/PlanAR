@@ -126,3 +126,18 @@ Responsable de:
 ## Estado del Proyecto
 
 Proyecto desarrollado como actividad académica para la implementación de trabajo colaborativo utilizando Git y GitHub.
+
+## Code Review
+
+<img width="619" height="244" alt="image" src="https://github.com/user-attachments/assets/2824c1ae-7bf5-404c-9d2a-09ffc00a953f" />
+
+## Registro de Errores
+
+<img width="635" height="292" alt="image" src="https://github.com/user-attachments/assets/ac25ede4-9aee-4336-ac59-06f56ba2188c" />
+
+## Infraestructura y DevOps
+
+<img width="1536" height="1024" alt="ChatGPT Image 22 jun 2026, 19_00_06" src="https://github.com/user-attachments/assets/01f6eda8-f671-4b0b-90af-3cb566a70ad7" />
+
+
+
