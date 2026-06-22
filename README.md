@@ -94,6 +94,7 @@ proyecto/
 ## Integrantes
 
 Perez, Matias
+
 Bosaz, Agustin
 
 ### Integrante 1
