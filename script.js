@@ -1,25 +1,25 @@
-// Funcionalidad 1: Reservar lugar
-const btnReservar = document.getElementById("btnReservar");
+// Funcionalidad Reservar lugar
+const botonesReserva = document.querySelectorAll(".btnReservar");
 const mensaje = document.getElementById("mensaje");
 
-btnReservar.addEventListener("click", function () {
-    mensaje.textContent = "✅ Reserva realizada correctamente";
+botonesReserva.forEach(boton => {
+    boton.addEventListener("click", () => {
+        mensaje.innerHTML = "<p>✅ Reserva realizada correctamente</p>";
+    });
 });
 
-// Funcionalidad 2: Mostrar categorías
-const btnCategorias = document.getElementById("btnCategorias");
-const contenedorCategorias = document.getElementById("categorias");
-
+// Funcionalidad Mostrar categorías
 const categorias = ["Conciertos", "Ferias", "Deportes"];
 
-btnCategorias.addEventListener("click", function () {
+document.getElementById("btnCategorias").addEventListener("click", () => {
 
-    contenedorCategorias.innerHTML = "";
+    let html = "<h3>Categorías disponibles:</h3><ul>";
 
-    categorias.forEach(function (categoria) {
-        const elemento = document.createElement("p");
-        elemento.textContent = categoria;
-        contenedorCategorias.appendChild(elemento);
+    categorias.forEach(categoria => {
+        html += `<li>${categoria}</li>`;
     });
 
+    html += "</ul>";
+
+    document.getElementById("categorias").innerHTML = html;
 });
